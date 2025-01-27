@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 use env_logger::{Builder, Target};
 
 fn execute_query(query: &str) {

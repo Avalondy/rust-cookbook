@@ -1,0 +1,10 @@
+[package]
+name = "science"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+approx = "0.5.1"
+nalgebra = "0.33.2"
+ndarray = { version = "0.16.1", features = ["approx"] }
+serde_json = "1.0.137"
